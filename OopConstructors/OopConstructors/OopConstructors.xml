@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OopConstructors</name>
+    </assembly>
+    <members>
+        <member name="M:OopConstructors.Person.#ctor(System.String,System.String,System.DateTime)">
+            <summary>
+            Initializez etc..
+            </summary>
+            <param name="firstName"></param>
+            <param name="lastName"></param>
+            <param name="dateOfBirth"></param>
+        </member>
+    </members>
+</doc>
