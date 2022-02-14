@@ -9,15 +9,16 @@ namespace OopConstructors
     public class Person
     {
         public Person()
-        {
-            FirstName = string.Empty;
-            LastName = string.Empty;
-            DateOfBirth = new DateTime(1950, 1, 1);
+            :this(string.Empty, string.Empty, new DateTime(1950, 1, 1))
+        { 
         }
 
-
-
-
+            /// <summary>
+            /// Initializez etc..
+            /// </summary>
+            /// <param name="firstName"></param>
+            /// <param name="lastName"></param>
+            /// <param name="dateOfBirth"></param>
             public Person(string firstName, string lastName, DateTime dateOfBirth)
         {
             FirstName = firstName;
